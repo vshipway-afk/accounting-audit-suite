@@ -1,0 +1,14 @@
+Invoice_ID,Client_Name,Transaction_Date,Account_Category,Clean_Amount,Risk_Score,Audit_Status,Auditor_Notes
+INV-2026-00001,Nexus Healthcare,31 December 2025,Payroll & Benefits,0.0,Low,Verified,Variance detected against prior year baseline.
+INV-2026-00004,Nexus Healthcare,26 May 2026,Cost of Goods Sold,0.0,Medium,Reconciled,Fully compliant with internal controls.
+INV-2026-00009,Nexus Healthcare,29 July 2026,Cost of Goods Sold,0.0,Low,Pending Review,Requires secondary management approval.
+INV-2026-00012,Nexus Healthcare,13 January 2025,Cost of Goods Sold,0.0,Medium,Flagged,High-value transaction subject to forensic review.
+INV-2026-00042,Nexus Healthcare,03 July 2026,Capital Expenditure,0.0,Low,Verified,Variance detected against prior year baseline.
+INV-2026-00048,Nexus Healthcare,14 September 2025,Cost of Goods Sold,0.0,Low,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00051,Nexus Healthcare,14 April 2025,Payroll & Benefits,0.0,Medium,Pending Review,Requires secondary management approval.
+INV-2026-00055,Nexus Healthcare,17 September 2025,Revenue,0.0,Low,Verified,Variance detected against prior year baseline.
+INV-2026-00062,Nexus Healthcare,14 February 2025,Cost of Goods Sold,0.0,High,Pending Review,Variance detected against prior year baseline.
+INV-2026-00065,Nexus Healthcare,03 May 2025,Revenue,0.0,Low,Pending Review,Standard transaction check passed.
+INV-2026-00079,Nexus Healthcare,21 April 2025,Payroll & Benefits,0.0,Low,Flagged,High-value transaction subject to forensic review.
+INV-2026-00081,Nexus Healthcare,17 October 2025,Payroll & Benefits,0.0,Low,Verified,Standard transaction check passed.
+INV-2026-00085,Nexus Healthcare,21 July 2026,Cost of Goods Sold,0.0,Low,Flagged,Fully compliant with internal controls.

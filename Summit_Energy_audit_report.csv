@@ -1,0 +1,12 @@
+Invoice_ID,Client_Name,Transaction_Date,Account_Category,Clean_Amount,Risk_Score,Audit_Status,Auditor_Notes
+INV-2026-00006,Summit Energy,26 April 2025,Cost of Goods Sold,0.0,Low,Verified,Requires secondary management approval.
+INV-2026-00015,Summit Energy,24 April 2025,Cost of Goods Sold,0.0,Low,Verified,Standard transaction check passed.
+INV-2026-00018,Summit Energy,15 December 2025,Capital Expenditure,0.0,Medium,Verified,High-value transaction subject to forensic review.
+INV-2026-00019,Summit Energy,20 July 2026,Operating Expense,0.0,Medium,Verified,Fully compliant with internal controls.
+INV-2026-00024,Summit Energy,13 July 2025,Accounts Receivable,0.0,Low,Flagged,Requires secondary management approval.
+INV-2026-00029,Summit Energy,12 June 2025,Accounts Receivable,0.0,Low,Flagged,Standard transaction check passed.
+INV-2026-00044,Summit Energy,07 July 2025,Operating Expense,0.0,Low,Flagged,High-value transaction subject to forensic review.
+INV-2026-00047,Summit Energy,07 May 2025,Capital Expenditure,0.0,Low,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00057,Summit Energy,24 December 2025,Operating Expense,0.0,Low,Verified,Variance detected against prior year baseline.
+INV-2026-00084,Summit Energy,03 August 2025,Payroll & Benefits,0.0,High,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00091,Summit Energy,13 March 2026,Payroll & Benefits,0.0,Medium,Reconciled,Variance detected against prior year baseline.

@@ -1,0 +1,112 @@
+Transaction_ID,Client_Name,Date,Document_Type,Category,Amount,Tax_Deductible,Status,Clean_Amount
+TXN-5001,Metro Retail,2025-11-05,Invoice,Software Development,4144.09,No,Pending,4144.09
+TXN-5007,Metro Retail,2025-12-26,Receipt,Legal & Professional Fees,3653.21,Yes,Pending,3653.21
+TXN-5009,Metro Retail,2025-08-10,Invoice,Software Development,3212.34,No,Paid,3212.34
+TXN-5010,Metro Retail,2025-10-05,Receipt,Legal & Professional Fees,2405.94,Yes,Pending,2405.94
+TXN-5013,Metro Retail,2025-03-22,Invoice,IT Support,3404.87,No,Pending,3404.87
+TXN-5016,Metro Retail,2025-11-29,Receipt,Utilities,1220.58,Yes,Paid,1220.58
+TXN-5024,Metro Retail,2025-08-02,Receipt,Legal & Professional Fees,160.04,Yes,Pending,160.04
+TXN-5026,Metro Retail,2025-11-17,Invoice,Freight & Shipping,3660.34,No,Paid,3660.34
+TXN-5035,Metro Retail,2025-02-18,Invoice,Advisory,3319.9,No,Paid,3319.9
+TXN-5044,Metro Retail,2025-10-28,Invoice,Freight & Shipping,3658.66,No,Paid,3658.66
+TXN-5046,Metro Retail,2025-07-22,Invoice,Consulting Revenue,1991.58,No,Paid,1991.58
+TXN-5050,Metro Retail,2025-05-31,Invoice,Advisory,4550.62,No,Pending,4550.62
+TXN-5059,Metro Retail,2025-12-07,Invoice,Advisory,2260.24,No,Pending,2260.24
+TXN-5066,Metro Retail,2025-07-21,Receipt,Utilities,1949.02,Yes,Paid,1949.02
+TXN-5067,Metro Retail,2025-04-30,Invoice,Advisory,2397.02,No,Paid,2397.02
+TXN-5072,Metro Retail,2025-03-19,Invoice,Software Development,3232.02,No,Pending,3232.02
+TXN-5077,Metro Retail,2025-09-30,Receipt,Software Subscriptions,1090.83,Yes,Pending,1090.83
+TXN-5080,Metro Retail,2025-10-05,Invoice,IT Support,1744.28,No,Pending,1744.28
+TXN-5087,Metro Retail,2025-12-08,Receipt,Utilities,2974.39,Yes,Pending,2974.39
+TXN-5101,Metro Retail,2025-10-20,Invoice,Software Development,100.81,No,Paid,100.81
+TXN-5107,Metro Retail,2025-04-02,Receipt,Software Subscriptions,1421.84,Yes,Pending,1421.84
+TXN-5109,Metro Retail,2025-10-13,Invoice,IT Support,2726.03,No,Pending,2726.03
+TXN-5110,Metro Retail,2025-01-30,Receipt,Utilities,4875.22,Yes,Paid,4875.22
+TXN-5115,Metro Retail,2025-11-21,Invoice,Consulting Revenue,3950.73,No,Paid,3950.73
+TXN-5117,Metro Retail,2025-04-20,Receipt,Utilities,4688.52,Yes,Paid,4688.52
+TXN-5133,Metro Retail,2025-09-04,Invoice,Freight & Shipping,1987.63,No,Pending,1987.63
+TXN-5134,Metro Retail,2025-08-09,Invoice,Consulting Revenue,3258.72,No,Paid,3258.72
+TXN-5139,Metro Retail,2025-11-29,Invoice,Freight & Shipping,4545.67,No,Pending,4545.67
+TXN-5145,Metro Retail,2025-05-30,Invoice,Software Development,1762.42,No,Pending,1762.42
+TXN-5147,Metro Retail,2025-12-18,Receipt,Utilities,1020.34,Yes,Paid,1020.34
+TXN-5149,Metro Retail,2025-12-28,Invoice,Software Development,1675.53,No,Paid,1675.53
+TXN-5151,Metro Retail,2025-05-29,Receipt,Software Subscriptions,4591.74,Yes,Pending,4591.74
+TXN-5155,Metro Retail,2025-04-05,Invoice,Consulting Revenue,3028.27,No,Paid,3028.27
+TXN-5160,Metro Retail,2025-10-07,Receipt,Utilities,3163.32,Yes,Pending,3163.32
+TXN-5166,Metro Retail,2025-10-08,Invoice,Software Development,588.71,No,Paid,588.71
+TXN-5172,Metro Retail,2025-06-14,Invoice,Advisory,1387.84,No,Pending,1387.84
+TXN-5173,Metro Retail,2025-03-29,Invoice,Freight & Shipping,2059.89,No,Pending,2059.89
+TXN-5176,Metro Retail,2025-05-19,Receipt,Utilities,1299.72,Yes,Pending,1299.72
+TXN-5177,Metro Retail,2025-09-05,Invoice,Software Development,1309.39,No,Pending,1309.39
+TXN-5197,Metro Retail,2025-11-20,Receipt,Office Supplies,1357.79,Yes,Pending,1357.79
+TXN-5203,Metro Retail,2025-12-19,Invoice,Consulting Revenue,2514.36,No,Paid,2514.36
+TXN-5212,Metro Retail,2025-11-10,Receipt,Software Subscriptions,3780.37,Yes,Paid,3780.37
+TXN-5214,Metro Retail,2025-06-11,Invoice,IT Support,2253.81,No,Paid,2253.81
+TXN-5226,Metro Retail,2025-01-19,Invoice,Advisory,1708.85,No,Paid,1708.85
+TXN-5229,Metro Retail,2025-07-16,Receipt,Utilities,3119.31,Yes,Paid,3119.31
+TXN-5232,Metro Retail,2025-10-31,Invoice,Consulting Revenue,1788.02,No,Pending,1788.02
+TXN-5236,Metro Retail,2025-10-13,Invoice,Advisory,1975.79,No,Pending,1975.79
+TXN-5238,Metro Retail,2025-10-19,Receipt,Utilities,4640.7,Yes,Pending,4640.7
+TXN-5244,Metro Retail,2025-08-20,Invoice,Advisory,3496.22,No,Pending,3496.22
+TXN-5252,Metro Retail,2025-01-04,Receipt,Utilities,4874.38,Yes,Pending,4874.38
+TXN-5256,Metro Retail,2025-04-17,Receipt,Office Supplies,2445.67,Yes,Pending,2445.67
+TXN-5261,Metro Retail,2025-07-03,Receipt,Software Subscriptions,4964.84,Yes,Pending,4964.84
+TXN-5264,Metro Retail,2025-04-14,Invoice,IT Support,4756.28,No,Paid,4756.28
+TXN-5270,Metro Retail,2025-02-19,Invoice,Freight & Shipping,3733.39,No,Pending,3733.39
+TXN-5271,Metro Retail,2025-09-10,Receipt,Office Supplies,3118.17,Yes,Paid,3118.17
+TXN-5276,Metro Retail,2025-08-11,Receipt,Software Subscriptions,1183.69,Yes,Pending,1183.69
+TXN-5282,Metro Retail,2025-02-04,Invoice,Software Development,2451.65,No,Pending,2451.65
+TXN-5287,Metro Retail,2025-05-08,Invoice,Advisory,4498.04,No,Pending,4498.04
+TXN-5290,Metro Retail,2025-04-02,Invoice,IT Support,1758.95,No,Paid,1758.95
+TXN-5295,Metro Retail,2025-06-25,Receipt,Utilities,2208.53,Yes,Paid,2208.53
+TXN-5296,Metro Retail,2025-03-11,Invoice,Software Development,4039.05,No,Pending,4039.05
+TXN-5299,Metro Retail,2025-04-27,Invoice,IT Support,65.16,No,Pending,65.16
+TXN-5306,Metro Retail,2025-04-26,Invoice,IT Support,3176.82,No,Paid,3176.82
+TXN-5308,Metro Retail,2025-12-25,Receipt,Utilities,995.34,Yes,Paid,995.34
+TXN-5310,Metro Retail,2025-01-12,Invoice,IT Support,52.85,No,Paid,52.85
+TXN-5314,Metro Retail,2025-12-25,Invoice,IT Support,1376.32,No,Paid,1376.32
+TXN-5316,Metro Retail,2025-11-28,Invoice,IT Support,2927.38,No,Pending,2927.38
+TXN-5322,Metro Retail,2025-01-28,Receipt,Legal & Professional Fees,2483.63,Yes,Paid,2483.63
+TXN-5327,Metro Retail,2025-09-14,Invoice,Freight & Shipping,2395.91,No,Pending,2395.91
+TXN-5332,Metro Retail,2025-11-01,Receipt,Office Supplies,1478.1,Yes,Paid,1478.1
+TXN-5346,Metro Retail,2025-10-20,Receipt,Legal & Professional Fees,2005.69,Yes,Paid,2005.69
+TXN-5347,Metro Retail,2025-02-11,Receipt,Software Subscriptions,4676.49,Yes,Pending,4676.49
+TXN-5348,Metro Retail,2025-04-12,Receipt,Travel & Meals,2453.57,Yes,Pending,2453.57
+TXN-5350,Metro Retail,2025-05-07,Invoice,Consulting Revenue,3530.34,No,Paid,3530.34
+TXN-5352,Metro Retail,2025-04-03,Invoice,Freight & Shipping,2597.79,No,Paid,2597.79
+TXN-5359,Metro Retail,2025-06-15,Receipt,Software Subscriptions,2453.82,Yes,Pending,2453.82
+TXN-5364,Metro Retail,2025-02-03,Invoice,Freight & Shipping,4182.97,No,Pending,4182.97
+TXN-5366,Metro Retail,2025-12-06,Receipt,Software Subscriptions,4014.95,Yes,Paid,4014.95
+TXN-5368,Metro Retail,2025-11-16,Receipt,Travel & Meals,2653.37,Yes,Pending,2653.37
+TXN-5370,Metro Retail,2025-08-24,Invoice,Freight & Shipping,2548.0,No,Paid,2548.0
+TXN-5372,Metro Retail,2025-09-28,Invoice,Consulting Revenue,3821.18,No,Paid,3821.18
+TXN-5375,Metro Retail,2025-11-07,Invoice,Advisory,2882.51,No,Paid,2882.51
+TXN-5376,Metro Retail,2025-02-10,Receipt,Office Supplies,3008.54,Yes,Paid,3008.54
+TXN-5382,Metro Retail,2025-01-06,Invoice,Freight & Shipping,3590.66,No,Pending,3590.66
+TXN-5387,Metro Retail,2025-03-27,Receipt,Utilities,4590.04,Yes,Pending,4590.04
+TXN-5389,Metro Retail,2025-08-23,Invoice,Software Development,1854.24,No,Pending,1854.24
+TXN-5391,Metro Retail,2025-03-27,Invoice,Software Development,361.02,No,Pending,361.02
+TXN-5392,Metro Retail,2025-01-11,Invoice,Advisory,3315.42,No,Paid,3315.42
+TXN-5396,Metro Retail,2025-03-21,Receipt,Software Subscriptions,3491.35,Yes,Pending,3491.35
+TXN-5397,Metro Retail,2025-03-11,Receipt,Utilities,3860.28,Yes,Pending,3860.28
+TXN-5411,Metro Retail,2025-05-05,Receipt,Office Supplies,811.86,Yes,Paid,811.86
+TXN-5413,Metro Retail,2025-12-14,Invoice,Freight & Shipping,2886.45,No,Paid,2886.45
+TXN-5419,Metro Retail,2025-09-12,Receipt,Utilities,234.91,Yes,Paid,234.91
+TXN-5421,Metro Retail,2025-11-16,Receipt,Software Subscriptions,3128.34,Yes,Paid,3128.34
+TXN-5430,Metro Retail,2025-09-06,Invoice,IT Support,1622.75,No,Pending,1622.75
+TXN-5434,Metro Retail,2025-04-30,Invoice,Advisory,4952.73,No,Paid,4952.73
+TXN-5445,Metro Retail,2025-08-11,Invoice,IT Support,1282.84,No,Pending,1282.84
+TXN-5448,Metro Retail,2025-10-17,Invoice,Freight & Shipping,4962.49,No,Paid,4962.49
+TXN-5449,Metro Retail,2025-08-26,Receipt,Travel & Meals,3795.34,Yes,Pending,3795.34
+TXN-5454,Metro Retail,2025-05-18,Receipt,Legal & Professional Fees,4707.9,Yes,Paid,4707.9
+TXN-5466,Metro Retail,2025-01-09,Invoice,IT Support,4632.61,No,Paid,4632.61
+TXN-5471,Metro Retail,2025-11-04,Invoice,Advisory,2390.5,No,Paid,2390.5
+TXN-5472,Metro Retail,2025-03-27,Receipt,Software Subscriptions,2725.92,Yes,Pending,2725.92
+TXN-5482,Metro Retail,2025-08-30,Receipt,Travel & Meals,1052.15,Yes,Pending,1052.15
+TXN-5484,Metro Retail,2025-06-06,Receipt,Legal & Professional Fees,4863.09,Yes,Pending,4863.09
+TXN-5485,Metro Retail,2025-10-25,Receipt,Office Supplies,4759.54,Yes,Pending,4759.54
+TXN-5487,Metro Retail,2025-11-25,Invoice,IT Support,4245.99,No,Pending,4245.99
+TXN-5488,Metro Retail,2025-07-18,Invoice,Software Development,2742.7,No,Paid,2742.7
+TXN-5491,Metro Retail,2025-04-23,Invoice,Consulting Revenue,2380.7,No,Pending,2380.7
+TXN-5493,Metro Retail,2025-01-24,Receipt,Office Supplies,1508.96,Yes,Paid,1508.96
+TXN-5497,Metro Retail,2025-07-26,Invoice,IT Support,690.02,No,Pending,690.02

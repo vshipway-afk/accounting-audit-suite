@@ -1,0 +1,109 @@
+Transaction_ID,Client_Name,Date,Document_Type,Category,Amount,Tax_Deductible,Status
+TXN-5006,DataWave LLC,2025-03-15,Invoice,Advisory,645.06,No,Paid
+TXN-5008,DataWave LLC,2025-01-09,Invoice,Freight & Shipping,949.16,No,Paid
+TXN-5018,DataWave LLC,2025-11-19,Invoice,Freight & Shipping,621.32,No,Pending
+TXN-5019,DataWave LLC,2025-03-18,Invoice,Advisory,3685.69,No,Paid
+TXN-5021,DataWave LLC,2025-06-15,Invoice,Advisory,954.89,No,Pending
+TXN-5022,DataWave LLC,2025-05-25,Invoice,IT Support,4008.72,No,Pending
+TXN-5023,DataWave LLC,2025-07-02,Invoice,Advisory,54.34,No,Pending
+TXN-5025,DataWave LLC,2025-02-23,Receipt,Travel & Meals,1041.27,Yes,Paid
+TXN-5029,DataWave LLC,2025-06-20,Receipt,Office Supplies,3124.86,Yes,Pending
+TXN-5030,DataWave LLC,2025-01-09,Receipt,Legal & Professional Fees,493.63,Yes,Paid
+TXN-5031,DataWave LLC,2025-08-23,Invoice,Advisory,4115.88,No,Paid
+TXN-5037,DataWave LLC,2025-12-27,Receipt,Utilities,2883.79,Yes,Pending
+TXN-5041,DataWave LLC,2025-05-14,Invoice,Consulting Revenue,351.62,No,Paid
+TXN-5042,DataWave LLC,2025-01-09,Receipt,Office Supplies,1978.0,Yes,Paid
+TXN-5047,DataWave LLC,2025-11-30,Invoice,IT Support,4892.45,No,Paid
+TXN-5051,DataWave LLC,2025-01-04,Invoice,Consulting Revenue,4531.65,No,Pending
+TXN-5060,DataWave LLC,2025-12-10,Invoice,Freight & Shipping,562.54,No,Pending
+TXN-5073,DataWave LLC,2025-03-25,Invoice,IT Support,2670.72,No,Pending
+TXN-5075,DataWave LLC,2025-06-24,Receipt,Office Supplies,2908.51,Yes,Paid
+TXN-5076,DataWave LLC,2025-10-20,Invoice,IT Support,1662.65,No,Pending
+TXN-5085,DataWave LLC,2025-01-23,Invoice,Advisory,4268.14,No,Pending
+TXN-5091,DataWave LLC,2025-11-21,Receipt,Travel & Meals,2035.04,Yes,Pending
+TXN-5097,DataWave LLC,2025-01-09,Invoice,Freight & Shipping,2502.62,No,Paid
+TXN-5102,DataWave LLC,2025-06-23,Receipt,Legal & Professional Fees,2261.63,Yes,Paid
+TXN-5112,DataWave LLC,2025-08-02,Receipt,Travel & Meals,2194.95,Yes,Pending
+TXN-5113,DataWave LLC,2025-10-07,Invoice,IT Support,4425.79,No,Pending
+TXN-5114,DataWave LLC,2025-06-18,Invoice,Freight & Shipping,3589.56,No,Paid
+TXN-5120,DataWave LLC,2025-04-09,Receipt,Legal & Professional Fees,68.12,Yes,Paid
+TXN-5129,DataWave LLC,2025-03-31,Invoice,Freight & Shipping,963.67,No,Pending
+TXN-5131,DataWave LLC,2025-05-15,Invoice,IT Support,1921.47,No,Pending
+TXN-5136,DataWave LLC,2025-07-30,Invoice,Freight & Shipping,4416.48,No,Pending
+TXN-5137,DataWave LLC,2025-06-28,Receipt,Office Supplies,135.64,Yes,Paid
+TXN-5138,DataWave LLC,2025-08-11,Receipt,Office Supplies,149.83,Yes,Pending
+TXN-5144,DataWave LLC,2025-06-24,Receipt,Travel & Meals,4546.76,Yes,Pending
+TXN-5150,DataWave LLC,2025-07-28,Receipt,Utilities,3331.58,Yes,Paid
+TXN-5152,DataWave LLC,2025-10-17,Receipt,Office Supplies,999.9,Yes,Paid
+TXN-5154,DataWave LLC,2025-06-09,Invoice,Advisory,2743.42,No,Pending
+TXN-5158,DataWave LLC,2025-09-04,Receipt,Utilities,444.06,Yes,Pending
+TXN-5159,DataWave LLC,2025-01-23,Receipt,Software Subscriptions,3406.0,Yes,Pending
+TXN-5163,DataWave LLC,2025-02-03,Receipt,Office Supplies,508.09,Yes,Pending
+TXN-5164,DataWave LLC,2025-08-03,Invoice,Advisory,1073.37,No,Paid
+TXN-5171,DataWave LLC,2025-01-20,Invoice,Advisory,1690.57,No,Paid
+TXN-5178,DataWave LLC,2025-11-24,Receipt,Utilities,4077.98,Yes,Paid
+TXN-5179,DataWave LLC,2025-07-09,Receipt,Utilities,1423.1,Yes,Pending
+TXN-5183,DataWave LLC,2025-08-29,Receipt,Travel & Meals,3125.51,Yes,Paid
+TXN-5184,DataWave LLC,2025-09-17,Invoice,IT Support,600.97,No,Paid
+TXN-5188,DataWave LLC,2025-04-10,Invoice,Consulting Revenue,326.9,No,Paid
+TXN-5190,DataWave LLC,2025-06-21,Invoice,Software Development,4607.0,No,Paid
+TXN-5192,DataWave LLC,2025-12-11,Receipt,Legal & Professional Fees,603.2,Yes,Paid
+TXN-5196,DataWave LLC,2025-11-29,Invoice,Software Development,1407.2,No,Paid
+TXN-5202,DataWave LLC,2025-12-26,Invoice,Consulting Revenue,4861.73,No,Paid
+TXN-5204,DataWave LLC,2025-11-26,Invoice,Consulting Revenue,4265.53,No,Paid
+TXN-5207,DataWave LLC,2025-11-30,Receipt,Office Supplies,1665.18,Yes,Pending
+TXN-5208,DataWave LLC,2025-10-31,Invoice,IT Support,1347.93,No,Paid
+TXN-5215,DataWave LLC,2025-11-21,Receipt,Utilities,4125.16,Yes,Pending
+TXN-5217,DataWave LLC,2025-12-18,Invoice,Advisory,948.81,No,Pending
+TXN-5233,DataWave LLC,2025-11-06,Receipt,Office Supplies,4255.5,Yes,Pending
+TXN-5234,DataWave LLC,2025-11-01,Invoice,Freight & Shipping,793.64,No,Paid
+TXN-5241,DataWave LLC,2025-12-04,Receipt,Legal & Professional Fees,4284.65,Yes,Paid
+TXN-5249,DataWave LLC,2025-06-20,Receipt,Software Subscriptions,1607.57,Yes,Paid
+TXN-5251,DataWave LLC,2025-01-02,Receipt,Software Subscriptions,469.84,Yes,Pending
+TXN-5259,DataWave LLC,2025-10-14,Invoice,Software Development,1968.32,No,Pending
+TXN-5262,DataWave LLC,2025-10-04,Receipt,Travel & Meals,3145.71,Yes,Paid
+TXN-5266,DataWave LLC,2025-06-06,Receipt,Office Supplies,4114.84,Yes,Pending
+TXN-5272,DataWave LLC,2025-09-18,Invoice,Software Development,1853.72,No,Pending
+TXN-5289,DataWave LLC,2025-06-12,Receipt,Office Supplies,959.64,Yes,Pending
+TXN-5291,DataWave LLC,2025-03-18,Receipt,Software Subscriptions,2741.66,Yes,Pending
+TXN-5292,DataWave LLC,2025-12-24,Receipt,Office Supplies,4957.63,Yes,Paid
+TXN-5300,DataWave LLC,2025-12-28,Invoice,IT Support,4086.76,No,Pending
+TXN-5301,DataWave LLC,2025-05-18,Receipt,Office Supplies,79.85,Yes,Pending
+TXN-5305,DataWave LLC,2025-05-07,Receipt,Office Supplies,1459.99,Yes,Pending
+TXN-5311,DataWave LLC,2025-06-14,Receipt,Software Subscriptions,310.98,Yes,Pending
+TXN-5312,DataWave LLC,2025-03-29,Receipt,Software Subscriptions,2518.26,Yes,Paid
+TXN-5313,DataWave LLC,2025-10-25,Invoice,Software Development,2071.68,No,Pending
+TXN-5315,DataWave LLC,2025-05-14,Invoice,Software Development,3753.84,No,Paid
+TXN-5320,DataWave LLC,2025-10-09,Receipt,Legal & Professional Fees,690.51,Yes,Pending
+TXN-5321,DataWave LLC,2025-08-13,Invoice,Advisory,2379.42,No,Pending
+TXN-5323,DataWave LLC,2025-10-24,Invoice,Software Development,779.97,No,Pending
+TXN-5330,DataWave LLC,2025-12-04,Receipt,Utilities,4389.96,Yes,Paid
+TXN-5338,DataWave LLC,2025-12-28,Receipt,Utilities,623.36,Yes,Pending
+TXN-5341,DataWave LLC,2025-06-09,Receipt,Travel & Meals,2176.67,Yes,Pending
+TXN-5343,DataWave LLC,2025-06-22,Receipt,Office Supplies,3622.09,Yes,Pending
+TXN-5354,DataWave LLC,2025-09-08,Invoice,Advisory,1889.63,No,Pending
+TXN-5355,DataWave LLC,2025-02-15,Receipt,Utilities,1997.79,Yes,Pending
+TXN-5357,DataWave LLC,2025-12-08,Invoice,Software Development,644.23,No,Paid
+TXN-5361,DataWave LLC,2025-05-20,Receipt,Office Supplies,3612.04,Yes,Paid
+TXN-5367,DataWave LLC,2025-03-26,Receipt,Utilities,4328.17,Yes,Pending
+TXN-5369,DataWave LLC,2025-06-27,Receipt,Travel & Meals,3084.82,Yes,Paid
+TXN-5381,DataWave LLC,2025-08-21,Receipt,Travel & Meals,1834.86,Yes,Pending
+TXN-5386,DataWave LLC,2025-08-03,Receipt,Utilities,3964.18,Yes,Pending
+TXN-5403,DataWave LLC,2025-06-28,Receipt,Office Supplies,2006.79,Yes,Paid
+TXN-5406,DataWave LLC,2025-10-23,Receipt,Office Supplies,1682.46,Yes,Paid
+TXN-5415,DataWave LLC,2025-07-26,Invoice,Consulting Revenue,347.35,No,Pending
+TXN-5418,DataWave LLC,2025-07-17,Invoice,Freight & Shipping,4844.8,No,Pending
+TXN-5420,DataWave LLC,2025-10-28,Invoice,Software Development,1851.68,No,Pending
+TXN-5427,DataWave LLC,2025-10-29,Invoice,Freight & Shipping,4399.59,No,Paid
+TXN-5428,DataWave LLC,2025-04-12,Receipt,Travel & Meals,881.48,Yes,Paid
+TXN-5437,DataWave LLC,2025-07-24,Invoice,Software Development,2614.04,No,Pending
+TXN-5439,DataWave LLC,2025-12-24,Receipt,Utilities,3713.23,Yes,Paid
+TXN-5446,DataWave LLC,2025-12-21,Invoice,Freight & Shipping,440.05,No,Paid
+TXN-5452,DataWave LLC,2025-08-04,Receipt,Utilities,3634.64,Yes,Pending
+TXN-5455,DataWave LLC,2025-02-08,Receipt,Software Subscriptions,3823.67,Yes,Pending
+TXN-5458,DataWave LLC,2025-06-21,Receipt,Travel & Meals,1479.15,Yes,Paid
+TXN-5467,DataWave LLC,2025-12-01,Receipt,Software Subscriptions,2245.97,Yes,Paid
+TXN-5469,DataWave LLC,2025-12-23,Invoice,Software Development,1674.96,No,Paid
+TXN-5474,DataWave LLC,2025-06-30,Invoice,Software Development,4703.65,No,Pending
+TXN-5475,DataWave LLC,2025-10-20,Receipt,Utilities,1684.9,Yes,Paid
+TXN-5498,DataWave LLC,2025-10-08,Receipt,Software Subscriptions,1909.5,Yes,Pending

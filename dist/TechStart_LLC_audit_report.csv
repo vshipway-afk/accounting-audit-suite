@@ -1,0 +1,101 @@
+Transaction_ID,Client_Name,Date,Document_Type,Category,Amount,Tax_Deductible,Status,Clean_Amount
+TXN-5005,TechStart LLC,2025-12-17,Invoice,IT Support,1953.28,No,Paid,1953.28
+TXN-5012,TechStart LLC,2025-09-13,Invoice,Advisory,3869.81,No,Paid,3869.81
+TXN-5014,TechStart LLC,2025-01-05,Invoice,IT Support,4856.09,No,Pending,4856.09
+TXN-5027,TechStart LLC,2025-07-07,Receipt,Legal & Professional Fees,2873.19,Yes,Paid,2873.19
+TXN-5028,TechStart LLC,2025-06-21,Invoice,Advisory,2810.58,No,Pending,2810.58
+TXN-5032,TechStart LLC,2025-10-06,Invoice,Advisory,2086.13,No,Paid,2086.13
+TXN-5034,TechStart LLC,2025-02-03,Receipt,Legal & Professional Fees,55.24,Yes,Paid,55.24
+TXN-5036,TechStart LLC,2025-01-31,Receipt,Software Subscriptions,4753.84,Yes,Paid,4753.84
+TXN-5038,TechStart LLC,2025-08-08,Invoice,Consulting Revenue,3244.33,No,Paid,3244.33
+TXN-5039,TechStart LLC,2025-06-23,Invoice,Freight & Shipping,4042.09,No,Pending,4042.09
+TXN-5040,TechStart LLC,2025-06-24,Invoice,IT Support,832.36,No,Paid,832.36
+TXN-5043,TechStart LLC,2025-05-07,Receipt,Travel & Meals,4176.11,Yes,Paid,4176.11
+TXN-5049,TechStart LLC,2025-09-11,Invoice,Advisory,2129.18,No,Pending,2129.18
+TXN-5055,TechStart LLC,2025-11-18,Invoice,Consulting Revenue,3919.83,No,Paid,3919.83
+TXN-5058,TechStart LLC,2025-03-26,Receipt,Software Subscriptions,1967.19,Yes,Paid,1967.19
+TXN-5062,TechStart LLC,2025-04-25,Invoice,Freight & Shipping,1854.27,No,Paid,1854.27
+TXN-5068,TechStart LLC,2025-03-12,Receipt,Legal & Professional Fees,942.6,Yes,Pending,942.6
+TXN-5069,TechStart LLC,2025-11-01,Receipt,Travel & Meals,1431.34,Yes,Paid,1431.34
+TXN-5071,TechStart LLC,2025-10-11,Invoice,Advisory,2039.55,No,Pending,2039.55
+TXN-5079,TechStart LLC,2025-06-28,Receipt,Legal & Professional Fees,62.27,Yes,Pending,62.27
+TXN-5081,TechStart LLC,2025-10-05,Invoice,Freight & Shipping,1564.42,No,Paid,1564.42
+TXN-5082,TechStart LLC,2025-04-20,Receipt,Software Subscriptions,4422.11,Yes,Pending,4422.11
+TXN-5088,TechStart LLC,2025-09-17,Receipt,Software Subscriptions,2788.99,Yes,Pending,2788.99
+TXN-5090,TechStart LLC,2025-04-17,Invoice,IT Support,4545.19,No,Pending,4545.19
+TXN-5093,TechStart LLC,2025-03-31,Receipt,Office Supplies,560.07,Yes,Paid,560.07
+TXN-5095,TechStart LLC,2025-08-23,Receipt,Legal & Professional Fees,3482.27,Yes,Paid,3482.27
+TXN-5100,TechStart LLC,2025-02-14,Receipt,Utilities,4751.85,Yes,Pending,4751.85
+TXN-5105,TechStart LLC,2025-05-15,Invoice,Software Development,2544.11,No,Paid,2544.11
+TXN-5108,TechStart LLC,2025-03-31,Invoice,Advisory,1914.05,No,Pending,1914.05
+TXN-5119,TechStart LLC,2025-11-07,Invoice,Software Development,3760.39,No,Pending,3760.39
+TXN-5122,TechStart LLC,2025-04-23,Invoice,Freight & Shipping,1859.23,No,Pending,1859.23
+TXN-5124,TechStart LLC,2025-02-26,Invoice,IT Support,2445.31,No,Pending,2445.31
+TXN-5126,TechStart LLC,2025-02-01,Invoice,IT Support,4789.53,No,Pending,4789.53
+TXN-5135,TechStart LLC,2025-09-06,Receipt,Travel & Meals,4234.12,Yes,Paid,4234.12
+TXN-5140,TechStart LLC,2025-01-08,Receipt,Legal & Professional Fees,2964.95,Yes,Pending,2964.95
+TXN-5143,TechStart LLC,2025-01-07,Invoice,Software Development,469.44,No,Pending,469.44
+TXN-5157,TechStart LLC,2025-07-06,Invoice,Advisory,4853.87,No,Paid,4853.87
+TXN-5167,TechStart LLC,2025-01-02,Receipt,Travel & Meals,3605.51,Yes,Paid,3605.51
+TXN-5169,TechStart LLC,2025-01-04,Receipt,Utilities,3959.14,Yes,Paid,3959.14
+TXN-5180,TechStart LLC,2025-05-29,Receipt,Utilities,3112.13,Yes,Pending,3112.13
+TXN-5186,TechStart LLC,2025-01-13,Receipt,Utilities,4297.86,Yes,Paid,4297.86
+TXN-5187,TechStart LLC,2025-12-13,Invoice,Freight & Shipping,3164.9,No,Paid,3164.9
+TXN-5189,TechStart LLC,2025-12-17,Receipt,Utilities,586.64,Yes,Pending,586.64
+TXN-5191,TechStart LLC,2025-07-16,Invoice,Consulting Revenue,2598.31,No,Pending,2598.31
+TXN-5194,TechStart LLC,2025-12-22,Receipt,Office Supplies,3771.67,Yes,Pending,3771.67
+TXN-5195,TechStart LLC,2025-10-26,Receipt,Utilities,1801.95,Yes,Pending,1801.95
+TXN-5199,TechStart LLC,2025-03-16,Receipt,Utilities,4583.29,Yes,Paid,4583.29
+TXN-5206,TechStart LLC,2025-02-25,Receipt,Legal & Professional Fees,443.07,Yes,Pending,443.07
+TXN-5209,TechStart LLC,2025-06-30,Invoice,Software Development,1470.89,No,Paid,1470.89
+TXN-5211,TechStart LLC,2025-11-17,Invoice,IT Support,700.57,No,Pending,700.57
+TXN-5221,TechStart LLC,2025-02-22,Invoice,Consulting Revenue,4531.8,No,Pending,4531.8
+TXN-5230,TechStart LLC,2025-09-08,Invoice,IT Support,1394.7,No,Pending,1394.7
+TXN-5237,TechStart LLC,2025-06-16,Receipt,Travel & Meals,2805.77,Yes,Pending,2805.77
+TXN-5243,TechStart LLC,2025-04-26,Invoice,Advisory,2295.66,No,Paid,2295.66
+TXN-5247,TechStart LLC,2025-08-09,Receipt,Utilities,640.05,Yes,Pending,640.05
+TXN-5248,TechStart LLC,2025-07-14,Invoice,Consulting Revenue,82.69,No,Pending,82.69
+TXN-5253,TechStart LLC,2025-12-14,Invoice,IT Support,4701.61,No,Paid,4701.61
+TXN-5273,TechStart LLC,2025-03-14,Receipt,Legal & Professional Fees,172.06,Yes,Paid,172.06
+TXN-5278,TechStart LLC,2025-07-03,Receipt,Legal & Professional Fees,1840.43,Yes,Paid,1840.43
+TXN-5279,TechStart LLC,2025-07-31,Invoice,Consulting Revenue,4643.82,No,Pending,4643.82
+TXN-5280,TechStart LLC,2025-03-07,Receipt,Office Supplies,856.26,Yes,Paid,856.26
+TXN-5283,TechStart LLC,2025-08-03,Receipt,Legal & Professional Fees,2642.24,Yes,Pending,2642.24
+TXN-5302,TechStart LLC,2025-06-06,Invoice,IT Support,4869.98,No,Pending,4869.98
+TXN-5303,TechStart LLC,2025-03-10,Receipt,Travel & Meals,1932.76,Yes,Paid,1932.76
+TXN-5309,TechStart LLC,2025-03-21,Invoice,Advisory,3946.48,No,Pending,3946.48
+TXN-5317,TechStart LLC,2025-05-09,Invoice,Consulting Revenue,798.62,No,Pending,798.62
+TXN-5328,TechStart LLC,2025-08-26,Invoice,IT Support,1143.68,No,Pending,1143.68
+TXN-5331,TechStart LLC,2025-10-22,Receipt,Office Supplies,4741.87,Yes,Paid,4741.87
+TXN-5342,TechStart LLC,2025-09-11,Invoice,Consulting Revenue,2508.71,No,Paid,2508.71
+TXN-5344,TechStart LLC,2025-11-13,Receipt,Travel & Meals,1298.12,Yes,Paid,1298.12
+TXN-5362,TechStart LLC,2025-04-20,Receipt,Legal & Professional Fees,4467.09,Yes,Paid,4467.09
+TXN-5377,TechStart LLC,2025-11-04,Invoice,Software Development,1260.68,No,Paid,1260.68
+TXN-5384,TechStart LLC,2025-11-13,Receipt,Office Supplies,431.17,Yes,Pending,431.17
+TXN-5394,TechStart LLC,2025-10-12,Receipt,Legal & Professional Fees,4159.31,Yes,Paid,4159.31
+TXN-5404,TechStart LLC,2025-09-17,Invoice,IT Support,4898.78,No,Paid,4898.78
+TXN-5405,TechStart LLC,2025-03-16,Invoice,Consulting Revenue,3864.43,No,Paid,3864.43
+TXN-5407,TechStart LLC,2025-03-21,Invoice,Software Development,3003.33,No,Pending,3003.33
+TXN-5408,TechStart LLC,2025-10-05,Invoice,Consulting Revenue,2894.74,No,Paid,2894.74
+TXN-5409,TechStart LLC,2025-10-18,Receipt,Office Supplies,1674.86,Yes,Paid,1674.86
+TXN-5412,TechStart LLC,2025-02-26,Receipt,Software Subscriptions,1296.01,Yes,Paid,1296.01
+TXN-5416,TechStart LLC,2025-04-20,Invoice,Freight & Shipping,2956.12,No,Paid,2956.12
+TXN-5417,TechStart LLC,2025-03-13,Invoice,Consulting Revenue,4366.66,No,Pending,4366.66
+TXN-5422,TechStart LLC,2025-01-09,Invoice,Freight & Shipping,1489.61,No,Pending,1489.61
+TXN-5423,TechStart LLC,2025-08-15,Invoice,Consulting Revenue,77.08,No,Pending,77.08
+TXN-5426,TechStart LLC,2025-01-13,Receipt,Office Supplies,63.41,Yes,Paid,63.41
+TXN-5431,TechStart LLC,2025-10-04,Receipt,Utilities,626.48,Yes,Paid,626.48
+TXN-5432,TechStart LLC,2025-04-22,Invoice,Software Development,4082.97,No,Paid,4082.97
+TXN-5451,TechStart LLC,2025-06-21,Invoice,Consulting Revenue,3510.03,No,Paid,3510.03
+TXN-5453,TechStart LLC,2025-05-25,Invoice,IT Support,4052.58,No,Paid,4052.58
+TXN-5457,TechStart LLC,2025-06-10,Receipt,Software Subscriptions,1378.13,Yes,Pending,1378.13
+TXN-5460,TechStart LLC,2025-09-11,Receipt,Software Subscriptions,1933.38,Yes,Paid,1933.38
+TXN-5476,TechStart LLC,2025-11-21,Receipt,Travel & Meals,4163.52,Yes,Pending,4163.52
+TXN-5477,TechStart LLC,2025-01-26,Receipt,Travel & Meals,3367.68,Yes,Pending,3367.68
+TXN-5478,TechStart LLC,2025-05-06,Invoice,Consulting Revenue,2357.12,No,Paid,2357.12
+TXN-5479,TechStart LLC,2025-01-29,Invoice,Freight & Shipping,1092.42,No,Paid,1092.42
+TXN-5481,TechStart LLC,2025-04-12,Invoice,Advisory,1146.56,No,Paid,1146.56
+TXN-5490,TechStart LLC,2025-06-11,Receipt,Office Supplies,329.83,Yes,Pending,329.83
+TXN-5494,TechStart LLC,2025-09-02,Invoice,Advisory,1849.35,No,Pending,1849.35
+TXN-5495,TechStart LLC,2025-05-11,Receipt,Travel & Meals,4371.0,Yes,Paid,4371.0
+TXN-5496,TechStart LLC,2025-01-21,Invoice,Freight & Shipping,3306.16,No,Pending,3306.16

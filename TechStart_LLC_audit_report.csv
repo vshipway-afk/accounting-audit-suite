@@ -1,0 +1,12 @@
+Invoice_ID,Client_Name,Transaction_Date,Account_Category,Clean_Amount,Risk_Score,Audit_Status,Auditor_Notes
+INV-2026-00003,TechStart LLC,17 February 2025,Cost of Goods Sold,0.0,Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00007,TechStart LLC,03 December 2025,Payroll & Benefits,0.0,Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00008,TechStart LLC,27 May 2025,Payroll & Benefits,0.0,Low,Verified,Fully compliant with internal controls.
+INV-2026-00016,TechStart LLC,25 April 2026,Revenue,0.0,Medium,Flagged,High-value transaction subject to forensic review.
+INV-2026-00022,TechStart LLC,04 October 2025,Operating Expense,0.0,Medium,Pending Review,Fully compliant with internal controls.
+INV-2026-00031,TechStart LLC,05 January 2026,Revenue,0.0,Critical,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00036,TechStart LLC,26 June 2026,Cost of Goods Sold,0.0,Low,Pending Review,Fully compliant with internal controls.
+INV-2026-00060,TechStart LLC,07 July 2025,Revenue,0.0,Low,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00063,TechStart LLC,27 July 2026,Cost of Goods Sold,0.0,Low,Pending Review,Standard transaction check passed.
+INV-2026-00075,TechStart LLC,26 March 2026,Revenue,0.0,Medium,Flagged,Variance detected against prior year baseline.
+INV-2026-00083,TechStart LLC,27 March 2026,Capital Expenditure,0.0,Low,Verified,Variance detected against prior year baseline.

@@ -1,0 +1,86 @@
+Transaction_ID,Client_Name,Date,Document_Type,Category,Amount,Tax_Deductible,Status
+TXN-5000,Global Logistics,2025-09-27,Invoice,Freight & Shipping,2490.64,No,Pending
+TXN-5011,Global Logistics,2025-12-18,Invoice,Software Development,1412.94,No,Paid
+TXN-5015,Global Logistics,2025-04-02,Receipt,Software Subscriptions,832.88,Yes,Paid
+TXN-5020,Global Logistics,2025-06-06,Invoice,Software Development,251.17,No,Paid
+TXN-5033,Global Logistics,2025-09-08,Receipt,Utilities,651.24,Yes,Paid
+TXN-5045,Global Logistics,2025-04-06,Receipt,Utilities,3994.13,Yes,Pending
+TXN-5052,Global Logistics,2025-07-15,Receipt,Software Subscriptions,1609.06,Yes,Paid
+TXN-5057,Global Logistics,2025-08-17,Invoice,IT Support,3543.75,No,Pending
+TXN-5078,Global Logistics,2025-12-19,Receipt,Travel & Meals,2988.6,Yes,Paid
+TXN-5086,Global Logistics,2025-03-17,Receipt,Travel & Meals,843.38,Yes,Pending
+TXN-5089,Global Logistics,2025-07-30,Invoice,Freight & Shipping,3023.9,No,Paid
+TXN-5092,Global Logistics,2025-02-08,Receipt,Office Supplies,4237.87,Yes,Paid
+TXN-5094,Global Logistics,2025-11-04,Receipt,Travel & Meals,1401.68,Yes,Pending
+TXN-5098,Global Logistics,2025-10-11,Invoice,Software Development,2714.54,No,Pending
+TXN-5104,Global Logistics,2025-05-15,Invoice,Advisory,3100.22,No,Paid
+TXN-5111,Global Logistics,2025-08-11,Invoice,Software Development,2693.52,No,Pending
+TXN-5116,Global Logistics,2025-06-09,Receipt,Utilities,562.05,Yes,Pending
+TXN-5118,Global Logistics,2025-12-03,Invoice,Software Development,3682.91,No,Pending
+TXN-5121,Global Logistics,2025-05-20,Invoice,Software Development,3568.98,No,Paid
+TXN-5125,Global Logistics,2025-12-20,Receipt,Legal & Professional Fees,2645.99,Yes,Paid
+TXN-5148,Global Logistics,2025-12-01,Invoice,Software Development,2670.89,No,Paid
+TXN-5165,Global Logistics,2025-09-02,Invoice,Consulting Revenue,1979.8,No,Pending
+TXN-5170,Global Logistics,2025-05-09,Invoice,Freight & Shipping,400.75,No,Pending
+TXN-5174,Global Logistics,2025-12-24,Receipt,Travel & Meals,3957.91,Yes,Pending
+TXN-5181,Global Logistics,2025-03-01,Receipt,Office Supplies,4004.47,Yes,Pending
+TXN-5200,Global Logistics,2025-12-09,Invoice,Freight & Shipping,2612.45,No,Pending
+TXN-5201,Global Logistics,2025-02-05,Receipt,Software Subscriptions,4996.52,Yes,Pending
+TXN-5210,Global Logistics,2025-10-13,Receipt,Travel & Meals,437.22,Yes,Pending
+TXN-5213,Global Logistics,2025-04-03,Receipt,Legal & Professional Fees,1081.2,Yes,Paid
+TXN-5216,Global Logistics,2025-06-07,Receipt,Office Supplies,4122.42,Yes,Paid
+TXN-5218,Global Logistics,2025-05-31,Invoice,Software Development,4321.35,No,Pending
+TXN-5219,Global Logistics,2025-10-03,Invoice,Software Development,3657.54,No,Pending
+TXN-5224,Global Logistics,2025-01-17,Invoice,Consulting Revenue,2600.12,No,Pending
+TXN-5225,Global Logistics,2025-03-06,Invoice,Advisory,2502.06,No,Paid
+TXN-5228,Global Logistics,2025-05-04,Invoice,Freight & Shipping,2328.02,No,Pending
+TXN-5240,Global Logistics,2025-06-23,Invoice,Advisory,1696.13,No,Paid
+TXN-5254,Global Logistics,2025-07-16,Invoice,Consulting Revenue,3406.87,No,Pending
+TXN-5257,Global Logistics,2025-02-16,Invoice,Consulting Revenue,1970.76,No,Paid
+TXN-5258,Global Logistics,2025-04-24,Receipt,Legal & Professional Fees,319.66,Yes,Paid
+TXN-5267,Global Logistics,2025-08-01,Invoice,Freight & Shipping,906.64,No,Pending
+TXN-5268,Global Logistics,2025-07-14,Invoice,Advisory,2164.53,No,Paid
+TXN-5269,Global Logistics,2025-06-05,Receipt,Software Subscriptions,4579.52,Yes,Paid
+TXN-5274,Global Logistics,2025-12-26,Receipt,Software Subscriptions,626.15,Yes,Pending
+TXN-5275,Global Logistics,2025-07-10,Invoice,Software Development,3540.24,No,Paid
+TXN-5281,Global Logistics,2025-10-06,Invoice,Software Development,3281.96,No,Paid
+TXN-5284,Global Logistics,2025-01-15,Receipt,Legal & Professional Fees,2988.19,Yes,Pending
+TXN-5293,Global Logistics,2025-08-09,Receipt,Travel & Meals,4400.44,Yes,Pending
+TXN-5297,Global Logistics,2025-09-16,Receipt,Software Subscriptions,1877.84,Yes,Pending
+TXN-5298,Global Logistics,2025-01-21,Receipt,Legal & Professional Fees,1931.43,Yes,Paid
+TXN-5304,Global Logistics,2025-01-22,Receipt,Travel & Meals,1002.87,Yes,Pending
+TXN-5307,Global Logistics,2025-03-07,Invoice,IT Support,3679.72,No,Paid
+TXN-5318,Global Logistics,2025-11-22,Receipt,Travel & Meals,4613.2,Yes,Pending
+TXN-5319,Global Logistics,2025-11-13,Receipt,Software Subscriptions,3552.79,Yes,Paid
+TXN-5326,Global Logistics,2025-05-26,Invoice,Freight & Shipping,4286.87,No,Paid
+TXN-5333,Global Logistics,2025-06-04,Receipt,Travel & Meals,407.44,Yes,Paid
+TXN-5334,Global Logistics,2025-06-22,Receipt,Software Subscriptions,1897.0,Yes,Pending
+TXN-5335,Global Logistics,2025-11-16,Invoice,IT Support,2033.87,No,Pending
+TXN-5340,Global Logistics,2025-04-20,Invoice,IT Support,3283.37,No,Paid
+TXN-5349,Global Logistics,2025-10-24,Invoice,Consulting Revenue,4260.88,No,Paid
+TXN-5353,Global Logistics,2025-04-11,Receipt,Software Subscriptions,2379.94,Yes,Pending
+TXN-5356,Global Logistics,2025-03-28,Invoice,Consulting Revenue,1774.03,No,Pending
+TXN-5358,Global Logistics,2025-01-03,Receipt,Utilities,217.01,Yes,Pending
+TXN-5365,Global Logistics,2025-03-28,Receipt,Travel & Meals,4508.87,Yes,Paid
+TXN-5374,Global Logistics,2025-03-15,Invoice,Freight & Shipping,3062.5,No,Paid
+TXN-5379,Global Logistics,2025-03-28,Receipt,Office Supplies,197.35,Yes,Paid
+TXN-5388,Global Logistics,2025-05-01,Receipt,Office Supplies,3493.49,Yes,Pending
+TXN-5390,Global Logistics,2025-10-30,Invoice,Freight & Shipping,2078.45,No,Paid
+TXN-5400,Global Logistics,2025-09-02,Receipt,Office Supplies,1834.19,Yes,Pending
+TXN-5401,Global Logistics,2025-06-10,Invoice,Freight & Shipping,333.26,No,Paid
+TXN-5410,Global Logistics,2025-11-04,Invoice,Software Development,3060.6,No,Paid
+TXN-5425,Global Logistics,2025-04-26,Invoice,IT Support,1389.11,No,Paid
+TXN-5433,Global Logistics,2025-03-03,Receipt,Utilities,1986.03,Yes,Pending
+TXN-5435,Global Logistics,2025-09-14,Invoice,Freight & Shipping,1290.32,No,Pending
+TXN-5436,Global Logistics,2025-06-21,Invoice,Freight & Shipping,3273.11,No,Pending
+TXN-5438,Global Logistics,2025-05-24,Receipt,Legal & Professional Fees,4547.1,Yes,Paid
+TXN-5440,Global Logistics,2025-12-03,Invoice,Advisory,861.34,No,Pending
+TXN-5441,Global Logistics,2025-10-26,Invoice,Freight & Shipping,2698.22,No,Paid
+TXN-5442,Global Logistics,2025-07-01,Receipt,Utilities,4177.09,Yes,Pending
+TXN-5456,Global Logistics,2025-04-25,Invoice,Freight & Shipping,4596.38,No,Pending
+TXN-5461,Global Logistics,2025-12-16,Receipt,Office Supplies,1166.54,Yes,Paid
+TXN-5462,Global Logistics,2025-05-04,Receipt,Travel & Meals,2042.61,Yes,Pending
+TXN-5468,Global Logistics,2025-09-19,Invoice,Freight & Shipping,1633.76,No,Pending
+TXN-5470,Global Logistics,2025-04-13,Receipt,Utilities,4286.6,Yes,Paid
+TXN-5473,Global Logistics,2025-09-27,Receipt,Travel & Meals,2295.22,Yes,Paid
+TXN-5492,Global Logistics,2025-08-28,Invoice,Consulting Revenue,1988.71,No,Paid

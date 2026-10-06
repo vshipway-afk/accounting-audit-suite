@@ -1,0 +1,9 @@
+Invoice_ID,Client_Name,Transaction_Date,Account_Category,Clean_Amount,Risk_Score,Audit_Status,Auditor_Notes
+INV-2026-00032,Apex Corp,21 September 2025,Operating Expense,0.0,Low,Verified,Fully compliant with internal controls.
+INV-2026-00038,Apex Corp,19 October 2025,Accounts Receivable,0.0,High,Verified,Variance detected against prior year baseline.
+INV-2026-00039,Apex Corp,25 January 2025,Accounts Receivable,0.0,Medium,Verified,Standard transaction check passed.
+INV-2026-00058,Apex Corp,16 March 2025,Revenue,0.0,Low,Pending Review,Variance detected against prior year baseline.
+INV-2026-00064,Apex Corp,24 March 2025,Payroll & Benefits,0.0,Low,Verified,Variance detected against prior year baseline.
+INV-2026-00068,Apex Corp,07 March 2025,Payroll & Benefits,0.0,Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00073,Apex Corp,07 July 2025,Operating Expense,0.0,Low,Verified,Requires secondary management approval.
+INV-2026-00088,Apex Corp,19 July 2026,Payroll & Benefits,0.0,High,Pending Review,Variance detected against prior year baseline.

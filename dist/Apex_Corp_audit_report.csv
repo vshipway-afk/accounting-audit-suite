@@ -1,0 +1,97 @@
+Transaction_ID,Client_Name,Date,Document_Type,Category,Amount,Tax_Deductible,Status,Clean_Amount
+TXN-5002,Apex Corp,2025-05-20,Invoice,Freight & Shipping,4074.21,No,Paid,4074.21
+TXN-5003,Apex Corp,2025-03-19,Receipt,Office Supplies,1441.42,Yes,Paid,1441.42
+TXN-5004,Apex Corp,2025-02-11,Invoice,Advisory,767.18,No,Pending,767.18
+TXN-5017,Apex Corp,2025-08-06,Receipt,Travel & Meals,4907.43,Yes,Pending,4907.43
+TXN-5048,Apex Corp,2025-06-11,Invoice,Software Development,394.89,No,Paid,394.89
+TXN-5053,Apex Corp,2025-05-05,Receipt,Legal & Professional Fees,4947.59,Yes,Pending,4947.59
+TXN-5054,Apex Corp,2025-08-19,Invoice,Software Development,509.8,No,Paid,509.8
+TXN-5056,Apex Corp,2025-07-01,Invoice,Software Development,3199.67,No,Paid,3199.67
+TXN-5061,Apex Corp,2025-04-11,Receipt,Utilities,3938.56,Yes,Paid,3938.56
+TXN-5063,Apex Corp,2025-09-30,Invoice,Software Development,4774.23,No,Pending,4774.23
+TXN-5064,Apex Corp,2025-01-10,Receipt,Software Subscriptions,413.1,Yes,Paid,413.1
+TXN-5065,Apex Corp,2025-12-20,Invoice,IT Support,221.59,No,Pending,221.59
+TXN-5070,Apex Corp,2025-01-25,Invoice,Advisory,1808.08,No,Pending,1808.08
+TXN-5074,Apex Corp,2025-09-03,Invoice,Software Development,1724.73,No,Pending,1724.73
+TXN-5083,Apex Corp,2025-12-13,Receipt,Software Subscriptions,1155.18,Yes,Pending,1155.18
+TXN-5084,Apex Corp,2025-07-07,Receipt,Legal & Professional Fees,1610.49,Yes,Pending,1610.49
+TXN-5096,Apex Corp,2025-08-25,Invoice,Advisory,3827.27,No,Paid,3827.27
+TXN-5099,Apex Corp,2025-06-17,Receipt,Utilities,4093.81,Yes,Pending,4093.81
+TXN-5103,Apex Corp,2025-05-31,Receipt,Utilities,584.89,Yes,Paid,584.89
+TXN-5106,Apex Corp,2025-07-23,Receipt,Travel & Meals,3608.8,Yes,Pending,3608.8
+TXN-5123,Apex Corp,2025-01-22,Receipt,Office Supplies,3793.9,Yes,Paid,3793.9
+TXN-5127,Apex Corp,2025-02-13,Receipt,Office Supplies,3614.3,Yes,Paid,3614.3
+TXN-5128,Apex Corp,2025-02-17,Invoice,Freight & Shipping,3205.57,No,Pending,3205.57
+TXN-5130,Apex Corp,2025-06-05,Receipt,Software Subscriptions,2759.86,Yes,Paid,2759.86
+TXN-5132,Apex Corp,2025-04-03,Receipt,Legal & Professional Fees,3781.58,Yes,Pending,3781.58
+TXN-5141,Apex Corp,2025-09-12,Invoice,Freight & Shipping,3300.34,No,Paid,3300.34
+TXN-5142,Apex Corp,2025-04-25,Receipt,Travel & Meals,3413.84,Yes,Pending,3413.84
+TXN-5146,Apex Corp,2025-10-30,Receipt,Utilities,3049.89,Yes,Pending,3049.89
+TXN-5153,Apex Corp,2025-02-16,Receipt,Utilities,872.47,Yes,Paid,872.47
+TXN-5156,Apex Corp,2025-01-08,Receipt,Travel & Meals,621.74,Yes,Paid,621.74
+TXN-5161,Apex Corp,2025-07-13,Invoice,Advisory,3815.83,No,Pending,3815.83
+TXN-5162,Apex Corp,2025-12-22,Invoice,Software Development,3510.94,No,Paid,3510.94
+TXN-5168,Apex Corp,2025-10-22,Receipt,Utilities,1084.66,Yes,Paid,1084.66
+TXN-5175,Apex Corp,2025-03-23,Receipt,Travel & Meals,232.89,Yes,Paid,232.89
+TXN-5182,Apex Corp,2025-02-18,Invoice,IT Support,4791.4,No,Paid,4791.4
+TXN-5185,Apex Corp,2025-07-16,Receipt,Travel & Meals,2032.42,Yes,Pending,2032.42
+TXN-5193,Apex Corp,2025-12-04,Invoice,Freight & Shipping,770.79,No,Paid,770.79
+TXN-5198,Apex Corp,2025-03-07,Receipt,Software Subscriptions,1816.38,Yes,Pending,1816.38
+TXN-5205,Apex Corp,2025-04-30,Invoice,Consulting Revenue,1657.42,No,Pending,1657.42
+TXN-5220,Apex Corp,2025-06-09,Invoice,Advisory,4678.91,No,Paid,4678.91
+TXN-5222,Apex Corp,2025-06-17,Receipt,Software Subscriptions,350.01,Yes,Pending,350.01
+TXN-5223,Apex Corp,2025-04-29,Receipt,Software Subscriptions,1392.56,Yes,Pending,1392.56
+TXN-5227,Apex Corp,2025-12-31,Receipt,Travel & Meals,686.8,Yes,Paid,686.8
+TXN-5231,Apex Corp,2025-10-27,Invoice,IT Support,4590.51,No,Paid,4590.51
+TXN-5235,Apex Corp,2025-05-29,Receipt,Office Supplies,3039.11,Yes,Pending,3039.11
+TXN-5239,Apex Corp,2025-05-29,Receipt,Software Subscriptions,1990.17,Yes,Pending,1990.17
+TXN-5242,Apex Corp,2025-08-09,Invoice,Advisory,2077.38,No,Pending,2077.38
+TXN-5245,Apex Corp,2025-08-09,Receipt,Office Supplies,704.66,Yes,Paid,704.66
+TXN-5246,Apex Corp,2025-09-25,Invoice,Software Development,1658.19,No,Pending,1658.19
+TXN-5250,Apex Corp,2025-02-13,Receipt,Utilities,2835.71,Yes,Pending,2835.71
+TXN-5255,Apex Corp,2025-05-02,Receipt,Utilities,126.81,Yes,Paid,126.81
+TXN-5260,Apex Corp,2025-08-30,Invoice,IT Support,1778.46,No,Pending,1778.46
+TXN-5263,Apex Corp,2025-09-17,Receipt,Travel & Meals,1013.8,Yes,Pending,1013.8
+TXN-5265,Apex Corp,2025-05-22,Invoice,Advisory,1478.74,No,Paid,1478.74
+TXN-5277,Apex Corp,2025-02-22,Receipt,Travel & Meals,2800.88,Yes,Paid,2800.88
+TXN-5285,Apex Corp,2025-09-14,Invoice,IT Support,2518.09,No,Pending,2518.09
+TXN-5286,Apex Corp,2025-05-20,Invoice,Consulting Revenue,4626.71,No,Pending,4626.71
+TXN-5288,Apex Corp,2025-08-22,Receipt,Legal & Professional Fees,3196.6,Yes,Pending,3196.6
+TXN-5294,Apex Corp,2025-04-05,Receipt,Travel & Meals,4677.34,Yes,Pending,4677.34
+TXN-5324,Apex Corp,2025-04-14,Receipt,Office Supplies,3188.68,Yes,Pending,3188.68
+TXN-5325,Apex Corp,2025-08-11,Invoice,IT Support,3525.9,No,Pending,3525.9
+TXN-5329,Apex Corp,2025-08-31,Invoice,Advisory,709.28,No,Pending,709.28
+TXN-5336,Apex Corp,2025-04-09,Receipt,Travel & Meals,4388.9,Yes,Paid,4388.9
+TXN-5337,Apex Corp,2025-09-02,Invoice,Software Development,185.16,No,Pending,185.16
+TXN-5339,Apex Corp,2025-08-14,Invoice,Software Development,777.7,No,Pending,777.7
+TXN-5345,Apex Corp,2025-10-03,Receipt,Travel & Meals,2802.1,Yes,Pending,2802.1
+TXN-5351,Apex Corp,2025-08-24,Receipt,Software Subscriptions,1996.79,Yes,Pending,1996.79
+TXN-5360,Apex Corp,2025-03-26,Invoice,Consulting Revenue,476.1,No,Paid,476.1
+TXN-5363,Apex Corp,2025-02-03,Receipt,Software Subscriptions,3446.22,Yes,Paid,3446.22
+TXN-5371,Apex Corp,2025-10-29,Receipt,Legal & Professional Fees,4845.84,Yes,Paid,4845.84
+TXN-5373,Apex Corp,2025-11-07,Invoice,IT Support,3860.92,No,Pending,3860.92
+TXN-5378,Apex Corp,2025-05-04,Receipt,Utilities,2377.9,Yes,Paid,2377.9
+TXN-5380,Apex Corp,2025-02-19,Invoice,Freight & Shipping,2140.64,No,Paid,2140.64
+TXN-5383,Apex Corp,2025-05-21,Receipt,Utilities,277.72,Yes,Paid,277.72
+TXN-5385,Apex Corp,2025-03-20,Receipt,Legal & Professional Fees,1121.25,Yes,Paid,1121.25
+TXN-5393,Apex Corp,2025-04-17,Receipt,Utilities,2411.67,Yes,Pending,2411.67
+TXN-5395,Apex Corp,2025-02-19,Receipt,Travel & Meals,4945.88,Yes,Paid,4945.88
+TXN-5398,Apex Corp,2025-05-08,Invoice,Freight & Shipping,1182.95,No,Paid,1182.95
+TXN-5399,Apex Corp,2025-08-24,Receipt,Utilities,729.35,Yes,Paid,729.35
+TXN-5402,Apex Corp,2025-09-19,Receipt,Software Subscriptions,3821.95,Yes,Paid,3821.95
+TXN-5414,Apex Corp,2025-11-24,Invoice,IT Support,3190.17,No,Paid,3190.17
+TXN-5424,Apex Corp,2025-02-27,Invoice,Software Development,1792.23,No,Pending,1792.23
+TXN-5429,Apex Corp,2025-04-20,Invoice,IT Support,2492.83,No,Pending,2492.83
+TXN-5443,Apex Corp,2025-09-17,Receipt,Office Supplies,800.05,Yes,Pending,800.05
+TXN-5444,Apex Corp,2025-01-12,Invoice,IT Support,4844.99,No,Pending,4844.99
+TXN-5447,Apex Corp,2025-05-09,Invoice,Software Development,4246.02,No,Paid,4246.02
+TXN-5450,Apex Corp,2025-08-30,Receipt,Software Subscriptions,4944.47,Yes,Pending,4944.47
+TXN-5459,Apex Corp,2025-04-29,Receipt,Legal & Professional Fees,1128.41,Yes,Paid,1128.41
+TXN-5463,Apex Corp,2025-06-12,Receipt,Utilities,4218.0,Yes,Pending,4218.0
+TXN-5464,Apex Corp,2025-08-14,Invoice,Software Development,3699.27,No,Paid,3699.27
+TXN-5465,Apex Corp,2025-12-07,Receipt,Travel & Meals,824.01,Yes,Paid,824.01
+TXN-5480,Apex Corp,2025-12-20,Receipt,Utilities,959.28,Yes,Paid,959.28
+TXN-5483,Apex Corp,2025-09-23,Receipt,Software Subscriptions,2993.94,Yes,Pending,2993.94
+TXN-5486,Apex Corp,2025-04-07,Receipt,Software Subscriptions,4789.97,Yes,Pending,4789.97
+TXN-5489,Apex Corp,2025-09-05,Invoice,Advisory,834.92,No,Paid,834.92
+TXN-5499,Apex Corp,2025-11-20,Receipt,Travel & Meals,2692.66,Yes,Pending,2692.66

@@ -1,0 +1,14 @@
+Invoice_ID,Client_Name,Transaction_Date,Account_Category,Clean_Amount,Risk_Score,Audit_Status,Auditor_Notes
+INV-2026-00021,Vanguard Finance,06 May 2025,Cost of Goods Sold,0.0,Low,Pending Review,Requires secondary management approval.
+INV-2026-00026,Vanguard Finance,13 October 2025,Accounts Receivable,0.0,Medium,Verified,Standard transaction check passed.
+INV-2026-00027,Vanguard Finance,26 February 2025,Capital Expenditure,0.0,High,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00035,Vanguard Finance,23 November 2025,Accounts Receivable,0.0,Low,Pending Review,Requires secondary management approval.
+INV-2026-00049,Vanguard Finance,01 July 2026,Operating Expense,0.0,Medium,Verified,Fully compliant with internal controls.
+INV-2026-00050,Vanguard Finance,13 July 2025,Operating Expense,0.0,Low,Reconciled,Standard transaction check passed.
+INV-2026-00052,Vanguard Finance,19 June 2026,Payroll & Benefits,0.0,Medium,Verified,Variance detected against prior year baseline.
+INV-2026-00070,Vanguard Finance,11 June 2025,Operating Expense,0.0,Low,Reconciled,Standard transaction check passed.
+INV-2026-00087,Vanguard Finance,19 August 2025,Payroll & Benefits,0.0,Low,Verified,Variance detected against prior year baseline.
+INV-2026-00094,Vanguard Finance,22 February 2025,Capital Expenditure,0.0,Low,Reconciled,Variance detected against prior year baseline.
+INV-2026-00095,Vanguard Finance,09 November 2025,Payroll & Benefits,0.0,Medium,Verified,High-value transaction subject to forensic review.
+INV-2026-00096,Vanguard Finance,08 October 2025,Operating Expense,0.0,Low,Pending Review,Standard transaction check passed.
+INV-2026-00099,Vanguard Finance,02 July 2025,Operating Expense,0.0,Low,Verified,Standard transaction check passed.
