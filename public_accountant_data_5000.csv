@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Invoice_ID,Client_Name,Transaction_Date,Account_Category,Clean_Amount,Risk_Score,Audit_Status,Auditor_Notes
 INV-2026-00001,Nexus Healthcare,31 December 2025,Payroll & Benefits,"£1,362",Low,Verified,Variance detected against prior year baseline.
 INV-2026-00002,Metro Retail,12 June 2025,Revenue,"£1,566",Low,Pending Review,Requires secondary management approval.
@@ -98,3 +99,105 @@ INV-2026-00096,Vanguard Finance,08 October 2025,Operating Expense,"£1,346",Low,
 INV-2026-00097,DataWave LLC,31 January 2025,Cost of Goods Sold,"£4,417",Medium,Flagged,Fully compliant with internal controls.
 INV-2026-00098,Metro Retail,03 December 2025,Payroll & Benefits,"£1,290",Low,Verified,High-value transaction subject to forensic review.
 INV-2026-00099,Vanguard Finance,02 July 2025,Operating Expense,"£2,450",Low,Verified,Standard transaction check passed.
+=======
+﻿Invoice_ID,Client_Name,Transaction_Date,Account_Category,Clean_Amount,Risk_Score,Audit_Status,Auditor_Notes
+INV-2026-00001,Nexus Healthcare,31 December 2025,Payroll & Benefits,"£1,362",Low,Verified,Variance detected against prior year baseline.
+INV-2026-00002,Metro Retail,12 June 2025,Revenue,"£1,566",Low,Pending Review,Requires secondary management approval.
+INV-2026-00003,TechStart LLC,17 February 2025,Cost of Goods Sold,"£9,839",Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00004,Nexus Healthcare,26 May 2026,Cost of Goods Sold,£382,Medium,Reconciled,Fully compliant with internal controls.
+INV-2026-00005,Global Logistics,25 November 2025,Revenue,"£6,535",Low,Pending Review,Standard transaction check passed.
+INV-2026-00006,Summit Energy,26 April 2025,Cost of Goods Sold,"£1,786",Low,Verified,Requires secondary management approval.
+INV-2026-00007,TechStart LLC,03 December 2025,Payroll & Benefits,"£2,594",Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00008,TechStart LLC,27 May 2025,Payroll & Benefits,"£4,583",Low,Verified,Fully compliant with internal controls.
+INV-2026-00009,Nexus Healthcare,29 July 2026,Cost of Goods Sold,"£1,268",Low,Pending Review,Requires secondary management approval.
+INV-2026-00010,DataWave LLC,19 November 2025,Revenue,"£1,557",High,Verified,Variance detected against prior year baseline.
+INV-2026-00011,Global Logistics,19 March 2026,Capital Expenditure,"£1,467",High,Verified,High-value transaction subject to forensic review.
+INV-2026-00012,Nexus Healthcare,13 January 2025,Cost of Goods Sold,"£1,324",Medium,Flagged,High-value transaction subject to forensic review.
+INV-2026-00013,Global Logistics,09 May 2026,Cost of Goods Sold,"£6,643",High,Pending Review,Variance detected against prior year baseline.
+INV-2026-00014,Global Logistics,14 October 2025,Cost of Goods Sold,"£4,564",Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00015,Summit Energy,24 April 2025,Cost of Goods Sold,£439,Low,Verified,Standard transaction check passed.
+INV-2026-00016,TechStart LLC,25 April 2026,Revenue,£436,Medium,Flagged,High-value transaction subject to forensic review.
+INV-2026-00017,Metro Retail,22 January 2025,Capital Expenditure,"£1,546",Low,Flagged,Standard transaction check passed.
+INV-2026-00018,Summit Energy,15 December 2025,Capital Expenditure,£410,Medium,Verified,High-value transaction subject to forensic review.
+INV-2026-00019,Summit Energy,20 July 2026,Operating Expense,"£2,563",Medium,Verified,Fully compliant with internal controls.
+INV-2026-00020,Global Logistics,16 November 2025,Cost of Goods Sold,£538,Critical,Pending Review,Fully compliant with internal controls.
+INV-2026-00021,Vanguard Finance,06 May 2025,Cost of Goods Sold,"£1,997",Low,Pending Review,Requires secondary management approval.
+INV-2026-00022,TechStart LLC,04 October 2025,Operating Expense,£168,Medium,Pending Review,Fully compliant with internal controls.
+INV-2026-00023,DataWave LLC,23 July 2025,Capital Expenditure,"£1,102",Low,Verified,Variance detected against prior year baseline.
+INV-2026-00024,Summit Energy,13 July 2025,Accounts Receivable,"£2,977",Low,Flagged,Requires secondary management approval.
+INV-2026-00025,Metro Retail,01 July 2026,Payroll & Benefits,"£1,804",Low,Verified,Fully compliant with internal controls.
+INV-2026-00026,Vanguard Finance,13 October 2025,Accounts Receivable,"£9,723",Medium,Verified,Standard transaction check passed.
+INV-2026-00027,Vanguard Finance,26 February 2025,Capital Expenditure,"£5,331",High,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00028,DataWave LLC,30 October 2025,Cost of Goods Sold,"£1,262",Low,Verified,Fully compliant with internal controls.
+INV-2026-00029,Summit Energy,12 June 2025,Accounts Receivable,£266,Low,Flagged,Standard transaction check passed.
+INV-2026-00030,Metro Retail,19 January 2025,Revenue,"£4,821",Low,Verified,Requires secondary management approval.
+INV-2026-00031,TechStart LLC,05 January 2026,Revenue,"£6,204",Critical,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00032,Apex Corp,21 September 2025,Operating Expense,"£4,446",Low,Verified,Fully compliant with internal controls.
+INV-2026-00033,Metro Retail,23 April 2025,Capital Expenditure,£492,Low,Pending Review,Requires secondary management approval.
+INV-2026-00034,DataWave LLC,03 May 2026,Capital Expenditure,"£15,583",Low,Verified,Fully compliant with internal controls.
+INV-2026-00035,Vanguard Finance,23 November 2025,Accounts Receivable,£898,Low,Pending Review,Requires secondary management approval.
+INV-2026-00036,TechStart LLC,26 June 2026,Cost of Goods Sold,"£3,370",Low,Pending Review,Fully compliant with internal controls.
+INV-2026-00037,Metro Retail,06 March 2025,Capital Expenditure,"£6,116",Low,Verified,Standard transaction check passed.
+INV-2026-00038,Apex Corp,19 October 2025,Accounts Receivable,£822,High,Verified,Variance detected against prior year baseline.
+INV-2026-00039,Apex Corp,25 January 2025,Accounts Receivable,"£6,122",Medium,Verified,Standard transaction check passed.
+INV-2026-00040,Global Logistics,03 July 2026,Payroll & Benefits,"£1,076",Low,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00041,Global Logistics,01 January 2025,Payroll & Benefits,"£9,518",Critical,Verified,Fully compliant with internal controls.
+INV-2026-00042,Nexus Healthcare,03 July 2026,Capital Expenditure,£976,Low,Verified,Variance detected against prior year baseline.
+INV-2026-00043,DataWave LLC,21 May 2025,Accounts Receivable,"£7,817",Low,Verified,Variance detected against prior year baseline.
+INV-2026-00044,Summit Energy,07 July 2025,Operating Expense,£288,Low,Flagged,High-value transaction subject to forensic review.
+INV-2026-00045,Metro Retail,08 May 2025,Operating Expense,"£3,238",Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00046,Metro Retail,20 July 2025,Payroll & Benefits,"£2,049",Medium,Verified,Variance detected against prior year baseline.
+INV-2026-00047,Summit Energy,07 May 2025,Capital Expenditure,"£1,775",Low,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00048,Nexus Healthcare,14 September 2025,Cost of Goods Sold,£782,Low,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00049,Vanguard Finance,01 July 2026,Operating Expense,"£3,207",Medium,Verified,Fully compliant with internal controls.
+INV-2026-00050,Vanguard Finance,13 July 2025,Operating Expense,£679,Low,Reconciled,Standard transaction check passed.
+INV-2026-00051,Nexus Healthcare,14 April 2025,Payroll & Benefits,"£2,162",Medium,Pending Review,Requires secondary management approval.
+INV-2026-00052,Vanguard Finance,19 June 2026,Payroll & Benefits,£880,Medium,Verified,Variance detected against prior year baseline.
+INV-2026-00053,Global Logistics,22 September 2025,Capital Expenditure,"£7,937",Low,Verified,Requires secondary management approval.
+INV-2026-00054,Metro Retail,19 January 2026,Payroll & Benefits,£223,Medium,Flagged,Variance detected against prior year baseline.
+INV-2026-00055,Nexus Healthcare,17 September 2025,Revenue,£707,Low,Verified,Variance detected against prior year baseline.
+INV-2026-00056,Metro Retail,18 February 2026,Accounts Receivable,£844,Low,Verified,Standard transaction check passed.
+INV-2026-00057,Summit Energy,24 December 2025,Operating Expense,"£1,486",Low,Verified,Variance detected against prior year baseline.
+INV-2026-00058,Apex Corp,16 March 2025,Revenue,£812,Low,Pending Review,Variance detected against prior year baseline.
+INV-2026-00059,Global Logistics,21 December 2025,Cost of Goods Sold,"£1,840",High,Verified,Standard transaction check passed.
+INV-2026-00060,TechStart LLC,07 July 2025,Revenue,"£5,298",Low,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00061,Global Logistics,17 October 2025,Capital Expenditure,"£3,263",Low,Verified,Requires secondary management approval.
+INV-2026-00062,Nexus Healthcare,14 February 2025,Cost of Goods Sold,"£2,319",High,Pending Review,Variance detected against prior year baseline.
+INV-2026-00063,TechStart LLC,27 July 2026,Cost of Goods Sold,£383,Low,Pending Review,Standard transaction check passed.
+INV-2026-00064,Apex Corp,24 March 2025,Payroll & Benefits,"£3,110",Low,Verified,Variance detected against prior year baseline.
+INV-2026-00065,Nexus Healthcare,03 May 2025,Revenue,£605,Low,Pending Review,Standard transaction check passed.
+INV-2026-00066,DataWave LLC,24 December 2025,Capital Expenditure,"£4,009",Medium,Verified,Requires secondary management approval.
+INV-2026-00067,Metro Retail,12 June 2026,Operating Expense,£869,Low,Pending Review,Fully compliant with internal controls.
+INV-2026-00068,Apex Corp,07 March 2025,Payroll & Benefits,"£1,499",Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00069,Metro Retail,10 January 2026,Revenue,"£1,229",Low,Verified,Fully compliant with internal controls.
+INV-2026-00070,Vanguard Finance,11 June 2025,Operating Expense,"£5,044",Low,Reconciled,Standard transaction check passed.
+INV-2026-00071,DataWave LLC,15 January 2026,Revenue,£488,Medium,Reconciled,Variance detected against prior year baseline.
+INV-2026-00072,DataWave LLC,24 December 2025,Payroll & Benefits,"£2,235",Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00073,Apex Corp,07 July 2025,Operating Expense,£533,Low,Verified,Requires secondary management approval.
+INV-2026-00074,DataWave LLC,18 November 2025,Payroll & Benefits,"£3,200",Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00075,TechStart LLC,26 March 2026,Revenue,"£6,037",Medium,Flagged,Variance detected against prior year baseline.
+INV-2026-00076,DataWave LLC,19 April 2026,Cost of Goods Sold,"£1,576",Medium,Verified,Fully compliant with internal controls.
+INV-2026-00077,Metro Retail,13 January 2025,Accounts Receivable,"£1,824",Low,Verified,Standard transaction check passed.
+INV-2026-00078,Metro Retail,03 July 2025,Cost of Goods Sold,"£6,708",Low,Verified,Fully compliant with internal controls.
+INV-2026-00079,Nexus Healthcare,21 April 2025,Payroll & Benefits,"£1,990",Low,Flagged,High-value transaction subject to forensic review.
+INV-2026-00080,Metro Retail,23 May 2026,Payroll & Benefits,"£1,822",Low,Verified,Variance detected against prior year baseline.
+INV-2026-00081,Nexus Healthcare,17 October 2025,Payroll & Benefits,"£2,309",Low,Verified,Standard transaction check passed.
+INV-2026-00082,Metro Retail,22 October 2025,Operating Expense,"£3,072",Low,Verified,Variance detected against prior year baseline.
+INV-2026-00083,TechStart LLC,27 March 2026,Capital Expenditure,£433,Low,Verified,Variance detected against prior year baseline.
+INV-2026-00084,Summit Energy,03 August 2025,Payroll & Benefits,"£4,452",High,Pending Review,High-value transaction subject to forensic review.
+INV-2026-00085,Nexus Healthcare,21 July 2026,Cost of Goods Sold,"£1,580",Low,Flagged,Fully compliant with internal controls.
+INV-2026-00086,Global Logistics,27 January 2025,Accounts Receivable,£338,Medium,Flagged,Variance detected against prior year baseline.
+INV-2026-00087,Vanguard Finance,19 August 2025,Payroll & Benefits,"£4,007",Low,Verified,Variance detected against prior year baseline.
+INV-2026-00088,Apex Corp,19 July 2026,Payroll & Benefits,"£1,333",High,Pending Review,Variance detected against prior year baseline.
+INV-2026-00089,Metro Retail,17 November 2025,Payroll & Benefits,£414,Low,Verified,Standard transaction check passed.
+INV-2026-00090,DataWave LLC,21 August 2025,Operating Expense,"£2,661",Low,Verified,Variance detected against prior year baseline.
+INV-2026-00091,Summit Energy,13 March 2026,Payroll & Benefits,"£5,453",Medium,Reconciled,Variance detected against prior year baseline.
+INV-2026-00092,Metro Retail,17 June 2026,Cost of Goods Sold,"£5,618",Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00093,DataWave LLC,07 February 2026,Revenue,"£8,055",Low,Verified,Variance detected against prior year baseline.
+INV-2026-00094,Vanguard Finance,22 February 2025,Capital Expenditure,"£5,207",Low,Reconciled,Variance detected against prior year baseline.
+INV-2026-00095,Vanguard Finance,09 November 2025,Payroll & Benefits,£155,Medium,Verified,High-value transaction subject to forensic review.
+INV-2026-00096,Vanguard Finance,08 October 2025,Operating Expense,"£1,346",Low,Pending Review,Standard transaction check passed.
+INV-2026-00097,DataWave LLC,31 January 2025,Cost of Goods Sold,"£4,417",Medium,Flagged,Fully compliant with internal controls.
+INV-2026-00098,Metro Retail,03 December 2025,Payroll & Benefits,"£1,290",Low,Verified,High-value transaction subject to forensic review.
+INV-2026-00099,Vanguard Finance,02 July 2025,Operating Expense,"£2,450",Low,Verified,Standard transaction check passed.
+>>>>>>> 708b956ab617a78b0f514c94ce491cdf8ad8fd6e
