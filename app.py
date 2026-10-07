@@ -4,6 +4,9 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+# Load your CSV dataset
+df = pd.read_csv("public_accountant_data_5000.csv")
+
 # Page Layout Configuration
 st.set_page_config(
     page_title="AuditFlow Enterprise | Public Accounting Suite",
@@ -71,16 +74,43 @@ if app_mode == "Executive Summary":
     col1, col2, col3, col4 = st.columns(4)
     total_txns = len(df)
 
-    # Clean and convert the column to numeric before summing
-    clean_amounts = pd.to_numeric(
-        df["Clean_Amount"]
-        .astype(str)
-        .str.replace("£", "", regex=False)
-        .str.replace(",", "", regex=False),
-        errors="coerce",
-    )
-    total_volume = clean_amounts.sum()
-    flagged_count = len(df[df["Audit_Status"].isin(["Flagged", "Pending Review"])])
+# Calculate all metrics safely before displaying
+total_volume = pd.to_numeric(
+    df["Clean_Amount"]
+    .astype(str)
+    .str.replace("£", "", regex=False)
+    .str.replace(",", "", regex=False),
+    errors="coerce",
+    ).sum()
+total_txns = len(df)
+
+# Calculate review and risk counts safely
+flagged_count = (
+    len(df[df["Audit_Status"].isin(["Flagged", "Pending Review"])])
+    if "Audit_Status" in df.columns
+    else 0
+)
+critical_count = (
+    len(df[df["Risk Score"] == "Critical"]) if "Risk Score" in df.columns else 0
+)
+
+# Display all metrics
+col1, col2, col3, col4 = st.columns(4)
+
+col1.metric(label="Total Transactions Processed", value=f"{total_txns:,}")
+col2.metric(
+    label="Total Ledger Volume",
+    value=(f"£{float(total_volume):,.2f}" if pd.notnull(total_volume) else "£0.00"),
+)
+col3.metric(label="Items Needing Review", value=f"{flagged_count:,}")
+col4.metric(label="Critical Risk Entries", value=f"{critical_count:,}")
+
+st.markdown("---")
+
+st.markdown("---")
+st.subheader("Transaction Categories Distribution")
+fig, ax = plt.subplots(figsize=(10, 4))
+category_sums = df.groupby("Account_Category")["Clean_Amount"].sum()
     # Check if "Risk Score" exists in the dataframe columns before filtering
 if "Risk Score" in df.columns:
     critical_count = len(df[df["Risk Score"] == "Critical"])
@@ -239,3 +269,29 @@ if app_mode == "Client Portfolio Breakdown":
         "Use your terminal launcher option [6] to export standalone CSV audit"
         " reports for each entity."
     )
+
+
+# Sidebar file uploader for real-world use
+st.sidebar.header("Data Source Configuration")
+uploaded_file = st.sidebar.file_uploader(
+    "Upload your client CSV ledger", type=["csv"]
+)
+
+if uploaded_file is not None:
+    # Read the user-uploaded file
+    df = pd.read_csv(uploaded_file)
+    st.sidebar.success("Custom ledger loaded successfully!")
+else:
+    # Fallback to your default capstone dataset
+    df = pd.read_csv("public_accountant_data_5000.csv")
+    st.sidebar.info(
+        "Using default AuditFlow Enterprise dataset (Upload a CSV above to"
+        " analyze custom portfolios)."
+    )
+
+    # Display a preview of the dataset
+st.subheader("Ledger Data Preview")
+st.write(f"Showing dataset with {len(df):,} total rows:")
+
+# Interactive dataframe viewer (lets users scroll, search, and sort)
+st.dataframe(df, use_container_width=True)
