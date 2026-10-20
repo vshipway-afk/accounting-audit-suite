@@ -1,9 +1,42 @@
-<<<<<<< HEAD
-import datetime
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import streamlit as st
+
+@st.cache_data
+def load_data(file_path: str = "Apex_Corp_audit_report.csv"):
+    # Load dataset
+    df = pd.read_csv(file_path)
+
+    # Clean whitespace in column headers
+    df.columns = df.columns.str.strip()
+    # Safely format date column
+    if "Transaction_Date" in df.columns:
+        df["Transaction_Date"] = pd.to_datetime(
+            df["Transaction_Date"], errors="coerce"
+        )
+    elif "Date" in df.columns:
+        df["Transaction_Date"] = pd.to_datetime(df["Date"], errors="coerce")
+
+    # Safely convert numeric values
+    if "Clean_Amount" in df.columns:
+        df["Clean_Amount"] = pd.to_numeric(df["Clean_Amount"], errors="coerce")
+
+    return df  # Ensures df is returned rather than None
+
+
+# 1. Execute function and assign returned DataFrame
+df = load_data()
+
+# 2. Add main app logic and Streamlit UI components
+st.title("AuditFlow Enterprise | Public Accounting Suite")
+
+total_txns = len(df)
+st.metric("Total Transactions", total_txns)
+
+# Display summary table or preview
+st.dataframe(df.head())
+
 
 # Load your CSV dataset
 df = pd.read_csv("public_accountant_data_5000.csv")
@@ -45,11 +78,24 @@ def load_data():
             .astype(float)
         )
 
-    df["Transaction_Date"] = pd.to_datetime(df["Transaction_Date"], errors="coerce")
-    return df
+# Clean whitespace from column names
+df.columns = df.columns.str.strip()
+
+# Safely check for 'Transaction_Date' or fallback candidates
+if 'Transaction_Date' in df.columns:
+    df['Transaction_Date'] = pd.to_datetime(df['Transaction_Date'], errors='coerce')
+elif 'Date' in df.columns:
+    df['Transaction_Date'] = pd.to_datetime(df['Date'], errors='coerce')
+else:
+    # Print available columns to your terminal if none match
+    print("Available columns:", df.columns.tolist())
 
 
-df = load_data()
+
+def load_data():
+    # ... your loading and cleaning code ...
+
+    return df  # <--- Make sure this line exists at the end of load_data()
 
 # Sidebar Navigation
 st.sidebar.title("AuditFlow Navigation")
@@ -76,14 +122,19 @@ if app_mode == "Executive Summary":
     total_txns = len(df)
 
 # Calculate all metrics safely before displaying
-total_volume = pd.to_numeric(
-    df["Clean_Amount"]
-    .astype(str)
-    .str.replace("£", "", regex=False)
-    .str.replace(",", "", regex=False),
-    errors="coerce",
-    ).sum()
-total_txns = len(df)
+# Determine which amount column exists in the dataset
+amt_col = "Clean_Amount" if "Clean_Amount" in df.columns else ("Amount" if "Amount" in df.columns else None)
+
+if amt_col:
+    # Convert values to clean numeric type safely
+    total_volume = (
+        pd.to_numeric(
+            df[amt_col].astype(str).str.replace("$", "", regex=False).str.replace(",", "", regex=False),
+            errors="coerce"
+        ).sum()
+    )
+else:
+    total_volume = 0.0
 
 # Calculate review and risk counts safely
 flagged_count = (
@@ -110,13 +161,21 @@ st.markdown("---")
 
 st.markdown("---")
 st.subheader("Transaction Categories Distribution")
-fig, ax = plt.subplots(figsize=(10, 4))
-category_sums = df.groupby("Account_Category")["Clean_Amount"].sum()
-    # Check if "Risk Score" exists in the dataframe columns before filtering
+
+# Identify category and amount columns safely
+cat_col = "Account_Category" if "Account_Category" in df.columns else ("Category" if "Category" in df.columns else None)
+amt_col = "Clean_Amount" if "Clean_Amount" in df.columns else ("Amount" if "Amount" in df.columns else None)
+
+if cat_col and amt_col:
+    category_sums = df.groupby(cat_col)[amt_col].sum()
+    st.bar_chart(category_sums)
+else:
+    st.warning("Category or Amount column not found for grouping.")
+
 if "Risk Score" in df.columns:
     critical_count = len(df[df["Risk Score"] == "Critical"])
 else:
-    critical_count = 0  # Fallback or alternative column check
+    critical_count = 0  # Fallback if column is missing
 
     # Display metrics
     col1.metric(label="Total Transactions Processed", value=f"{total_txns:,}")
@@ -128,14 +187,17 @@ else:
     col4.metric(label="Critical Risk Entries", value=f"{critical_count:,}")
 
     st.markdown("---")
-    st.subheader("Transaction Categories Distribution")
-    fig, ax = plt.subplots(figsize=(10, 4))
-    category_sums = df.groupby("Account_Category")["Clean_Amount"].sum()
-# Convert your amount column to numeric first so pandas can plot it
-df["Clean_Amount"] = pd.to_numeric(df["Clean_Amount"].astype(str).str.replace(r"[^\d.]", "", regex=True), errors="coerce")
+    # Check for category and amount columns safely
+cat_col = "Account_Category" if "Account_Category" in df.columns else ("Category" if "Category" in df.columns else None)
+amt_col = "Clean_Amount" if "Clean_Amount" in df.columns else ("Amount" if "Amount" in df.columns else None)
 
-# Then generate your category sums safely
-category_sums = df.groupby("Account_Category")["Clean_Amount"].sum()
+if cat_col and amt_col:
+    category_sums = df.groupby(cat_col)[amt_col].sum()
+    st.bar_chart(category_sums)
+else:
+    st.info("Account Category data is not available in the current dataset.")
+# Change from "Account_Category" to "Category"
+category_sums = df.groupby("Category")["Clean_Amount"].sum()
 
 # Now plot without throwing a TypeError
 fig, ax = plt.subplots()
@@ -296,7 +358,7 @@ st.write(f"Showing dataset with {len(df):,} total rows:")
 
 # Interactive dataframe viewer (lets users scroll, search, and sort)
 st.dataframe(df, use_container_width=True)
-=======
+
 import datetime
 import matplotlib.pyplot as plt
 import numpy as np
@@ -513,4 +575,4 @@ elif app_mode == "Client Portfolio Breakdown":
       "Use your terminal launcher option [6] to export standalone CSV audit"
       " reports for each entity."
   )
->>>>>>> 708b956ab617a78b0f514c94ce491cdf8ad8fd6e
+
