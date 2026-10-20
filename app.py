@@ -187,22 +187,23 @@ else:
     col4.metric(label="Critical Risk Entries", value=f"{critical_count:,}")
 
     st.markdown("---")
-    # Check for category and amount columns safely
+
+# Check for category and amount columns safely
 cat_col = "Account_Category" if "Account_Category" in df.columns else ("Category" if "Category" in df.columns else None)
 amt_col = "Clean_Amount" if "Clean_Amount" in df.columns else ("Amount" if "Amount" in df.columns else None)
 
 if cat_col and amt_col:
     category_sums = df.groupby(cat_col)[amt_col].sum()
-    st.bar_chart(category_sums)
+
+    # Now plot using matplotlib safely
+    fig, ax = plt.subplots()
+    category_sums.plot(kind="bar", ax=ax, color="#1e3a8a")
+    ax.set_title("Totals by Category")
+    ax.set_xlabel(cat_col)
+    ax.set_ylabel(amt_col)
+    st.pyplot(fig)
 else:
     st.info("Account Category data is not available in the current dataset.")
-# Change from "Account_Category" to "Category"
-category_sums = df.groupby("Category")["Clean_Amount"].sum()
-
-# Now plot without throwing a TypeError
-fig, ax = plt.subplots()
-category_sums.plot(kind="bar", ax=ax, color="#1e3a8a")
-st.pyplot(fig)
 
 # 2. Raw Database Inspector View
 if app_mode == "Raw Database Inspector":
@@ -213,20 +214,34 @@ if app_mode == "Raw Database Inspector":
         " audit pipeline."
     )
 
-client_filter = st.selectbox(
-    "Filter by Client", ["All Clients"] + list(df["Client_Name"].unique())
-)
-status_filter = st.selectbox(
-    "Filter by Audit Status", ["All Statuses"] + list(df["Audit_Status"].unique())
-)
+# Safely handle client and status column checking
+client_col = "Client_Name" if "Client_Name" in df.columns else ("Client" if "Client" in df.columns else None)
+status_col = "Audit_Status" if "Audit_Status" in df.columns else None
 
+if client_col:
+    client_filter = st.selectbox(
+        label="Filter by Client",
+        options=["All Clients"] + list(df[client_col].unique())
+    )
+else:
+    client_filter = "All Clients"
+
+if status_col:
+    status_filter = st.selectbox(
+        label="Filter by Audit Status",
+        options=["All Statuses"] + list(df[status_col].unique())
+    )
+else:
+    status_filter = "All Statuses"
 filtered_df = df.copy()
-if client_filter != "All Clients":
-    filtered_df = filtered_df[filtered_df["Client_Name"] == client_filter]
-if status_filter != "All Statuses":
-    filtered_df = filtered_df[filtered_df["Audit_Status"] == status_filter]
+if client_col and client_filter != "All Clients":
+    filtered_df = filtered_df[filtered_df[client_col] == client_filter]
+if status_col and status_filter != "All Statuses":
+    filtered_df = filtered_df[filtered_df[status_col] == status_filter]
 
-duplicates = df[df.duplicated(subset=["Client_Name", "Clean_Amount"], keep=False)]
+# Safe duplicate check
+dup_cols = [c for c in [client_col, "Clean_Amount"] if c]
+duplicates = df[df.duplicated(subset=dup_cols, keep=False)] if dup_cols else pd.DataFrame()
 st.caption(f"Showing {len(filtered_df):,} records matching current filters.")
 
 # 3. BENFORD'S LAW FRAUD DETECTION
