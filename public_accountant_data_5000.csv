@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿Invoice_ID,Client_Name,Transaction_Date,Account_Category,Clean_Amount,Risk_Score,Audit_Status,Auditor_Notes
 INV-2026-00001,Nexus Healthcare,31 December 2025,Payroll & Benefits,"£1,362",Low,Verified,Variance detected against prior year baseline.
 INV-2026-00002,Metro Retail,12 June 2025,Revenue,"£1,566",Low,Pending Review,Requires secondary management approval.
@@ -99,7 +99,7 @@ INV-2026-00096,Vanguard Finance,08 October 2025,Operating Expense,"£1,346",Low,
 INV-2026-00097,DataWave LLC,31 January 2025,Cost of Goods Sold,"£4,417",Medium,Flagged,Fully compliant with internal controls.
 INV-2026-00098,Metro Retail,03 December 2025,Payroll & Benefits,"£1,290",Low,Verified,High-value transaction subject to forensic review.
 INV-2026-00099,Vanguard Finance,02 July 2025,Operating Expense,"£2,450",Low,Verified,Standard transaction check passed.
-=======
+
 ﻿Invoice_ID,Client_Name,Transaction_Date,Account_Category,Clean_Amount,Risk_Score,Audit_Status,Auditor_Notes
 INV-2026-00001,Nexus Healthcare,31 December 2025,Payroll & Benefits,"£1,362",Low,Verified,Variance detected against prior year baseline.
 INV-2026-00002,Metro Retail,12 June 2025,Revenue,"£1,566",Low,Pending Review,Requires secondary management approval.
@@ -200,4 +200,4 @@ INV-2026-00096,Vanguard Finance,08 October 2025,Operating Expense,"£1,346",Low,
 INV-2026-00097,DataWave LLC,31 January 2025,Cost of Goods Sold,"£4,417",Medium,Flagged,Fully compliant with internal controls.
 INV-2026-00098,Metro Retail,03 December 2025,Payroll & Benefits,"£1,290",Low,Verified,High-value transaction subject to forensic review.
 INV-2026-00099,Vanguard Finance,02 July 2025,Operating Expense,"£2,450",Low,Verified,Standard transaction check passed.
->>>>>>> 708b956ab617a78b0f514c94ce491cdf8ad8fd6e
+
